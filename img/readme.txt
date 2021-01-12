@@ -1,0 +1,1 @@
+ラズパイで取り込んだ画像ファイル（YYYYMMDDhh㎜ss.jpg）およびOCRのために2値化した画像ファイル（OP_YYYYMMDDhh㎜ss.jpg）が保存される場所
