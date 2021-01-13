@@ -22,11 +22,10 @@ def Mod_Camera_Capture():
     YMDHMS = DATE.strftime("%Y%m%d%H%M%S")
 
     with picamera.PiCamera() as camera:
-        camera.resolution = (800,800)
+        camera.resolution = (800,500)
         CAPTURE_DATA = YMDHMS + '.jpg'
         camera.capture(PATH + CAPTURE_DATA)
     
-    CAPTURE_DATA = '1.89.5.jpg'
     # 取り込んだ画像ファイル名と、取り込んだ時点の日付情報を戻り値として返す
     return CAPTURE_DATA, DATE
 
